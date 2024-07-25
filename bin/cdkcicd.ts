@@ -5,4 +5,4 @@ import { CdkCicdStack } from "../lib/cdkcicd-stack";
 
 const app = new cdk.App();
 new CdkCicdStack(app, "CdkcicdStack", {});
-app.synth();
+// app.synth();
